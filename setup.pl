@@ -23,7 +23,7 @@ move_old('.vimrc');
 move_old('_vimrc');
 
 if ($ENV{'OS'} =~ /windows/i) {
-    system('cmd //c mklink //j ..\\\\vimfiles .');
+#    system('cmd //c mklink //j ..\\\\vimfiles .');
     system('cmd //c mklink //h ..\\\\_vimrc vimrc');
 } else {
     system('ln -s "' . $dir . ' ' . "$ENV{HOME}/.vim");

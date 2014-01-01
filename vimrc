@@ -1,8 +1,7 @@
 execute pathogen#infect()
+syntax on
+filetype plugin indent on
 
-" Need to call on initially to support git
-filetype on
-filetype off
 set nocompatible
 
 set shell=/bin/bash
@@ -11,8 +10,6 @@ set modelines=0
 "colorscheme solarized
 set background=dark
 set autoread
-syntax enable
-filetype plugin indent on
 set expandtab
 set tabstop=2
 set shiftwidth=2
@@ -44,4 +41,3 @@ set textwidth=70
 set formatoptions=qrn1
 set nobackup
 set noswapfile
-let g:syntastic_check_on_open=1
