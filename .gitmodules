@@ -22,3 +22,6 @@
 [submodule "bundle/vim-node"]
 	path = bundle/vim-node
 	url = https://github.com/moll/vim-node.git
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = https://github.com/leshill/vim-json.git
