@@ -1,5 +1,9 @@
 #!/usr/bin/env perl
 
+# VIM 7.4 takes care of most of the reasons I
+# used to use all this, now it's just a symlink
+# to .vimrc
+
 # run from the same directory as checked out from git
 # to setup links
 

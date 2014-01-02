@@ -40,3 +40,9 @@
 [submodule "bundle/vim-html5"]
 	path = bundle/vim-html5
 	url = git@github.com:robmuh/vim-html5.git
+[submodule "bundle/vim-polyglot"]
+	path = bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "bundle/vim-css3-syntax"]
+	path = bundle/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax
