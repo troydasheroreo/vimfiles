@@ -3,7 +3,7 @@ filetype plugin indent on
 set nocompatible
 set shell=/bin/bash
 set modelines=0
-set spell spelllang=en_us
+"set spell spelllang=en_us
 "colorscheme solarized
 set background=dark
 set autoread
