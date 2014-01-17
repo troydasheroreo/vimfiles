@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/perl
 
 # VIM 7.4 takes care of most of the reasons I
 # used to use all this, now it's just a symlink
@@ -30,7 +30,9 @@ if ($ENV{'OS'} =~ /windows/i) {
 #    system('cmd //c mklink //j ..\\\\vimfiles .');
     system('cmd //c mklink //h ..\\\\_vimrc vimrc');
 } else {
-    system('ln -s "' . $dir . ' ' . "$ENV{HOME}/.vim");
-    system('ln -s "' . $dir . '/vimrc ' . "$ENV{HOME}/.vimrc");
+    my $cmd = 'ln -s "' . $dir . '" "' .  "$ENV{HOME}/.vim\"";
+    system $cmd;
+    my $cmd = 'ln -s "' . $dir . '/vimrc" "' . "$ENV{HOME}/.vimrc\"";
+    system $cmd;
 }
 
