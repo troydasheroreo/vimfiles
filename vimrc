@@ -1,7 +1,6 @@
 syntax on
 filetype plugin indent on
 set nocompatible
-set shell=/bin/bash
 set modelines=0
 "set spell spelllang=en_us
 "colorscheme solarized
@@ -38,3 +37,11 @@ set textwidth=70
 set formatoptions=qrn1
 set nobackup
 set noswapfile
+
+" Fixes '485: Can't read file <tmp>' errors
+let $TMP="/tmp"
+
+" Fixes 'can't find specified path' errors (both work)
+" set shell=/bin/bash\ -i
+set shell=bash
+
