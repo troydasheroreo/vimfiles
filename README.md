@@ -6,7 +6,7 @@ My vim setup (\*nix and Windows friendly).
 Truth is I don't like a bunch of plugins making my fingers start expecting
 things they won't find out in cloud or enterprise land. In other words,
 I'm a one `vimrc` guy these days though I pilfer with wild abandon from
-@tpope and others.
+@[tpope][] and others.
 
 I also prefer one-liner perl scripts that I shell out with like
 [fmt][] rather then a bunch of vim macros because the standalones can
@@ -46,4 +46,5 @@ corrected, but not all.]
 
 [bin]: http://github.com/robmuh/bin.git
 [fmt]: http://github.com/robmuh/fmt.git
+[tpope]: http://github.com/tpope
 

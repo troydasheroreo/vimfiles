@@ -50,5 +50,5 @@ let $TMP="/tmp"
 set shell=bash
 
 " Wraps current word with [word][] (markdown I use with mdaddlinks)
-nmap [j Bi[<esc>ea][]<esc>
+nmap [j bi[<esc>ea][]<esc>
 
