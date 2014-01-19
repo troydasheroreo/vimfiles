@@ -39,13 +39,13 @@ might interest you:
 You might not like all my `/spell` additions. Just nix the file in
 your fork if you want.
 
-[Once upon a time there was a lot more here, then I found `git-bash`
+Once upon a time there was a lot more here, then I found `git-bash`
 from http://git-scm.org did not come with 7.4, only 7.3. Since the
 upgrade to 7.4 a lot of my syntax and OS-specific woahs have been
-corrected, but not all.]
+corrected, but not all.
 
-[bin]: http://github.com/robmuh/bin.git
-[fmt]: http://github.com/robmuh/fmt.git
-[mkaddlinks]: http://github.com/robmuh/mkaddlinks.git
+[bin]: http://github.com/robmuh/bin
+[fmt]: http://github.com/robmuh/fmt
+[mkaddlinks]: http://github.com/robmuh/mkaddlinks
 [tpope]: http://github.com/tpope
 
