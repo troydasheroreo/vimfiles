@@ -2,8 +2,7 @@ syntax on
 filetype plugin indent on
 set nocompatible
 set modelines=0
-"set spell spelllang=en_us
-"colorscheme solarized
+set spell spelllang=en_us
 set background=dark
 set autoread
 set expandtab
@@ -22,7 +21,6 @@ set hidden
 set wildmenu
 set wildmode=list:longest
 set visualbell
-set cursorline
 set ttyfast
 set ruler
 set backspace=indent,eol,start
@@ -38,10 +36,19 @@ set formatoptions=qrn1
 set nobackup
 set noswapfile
 
+"colorscheme solarized
+"set cursorline
+highlight  CursorLine ctermbg=darkgrey ctermfg=None
+autocmd InsertEnter * highlight  CursorLine ctermbg=None ctermfg=None
+autocmd InsertLeave * highlight  CursorLine ctermbg=darkgrey ctermfg=None
+
 " Fixes '485: Can't read file <tmp>' errors
 let $TMP="/tmp"
 
 " Fixes 'can't find specified path' errors (both work)
 " set shell=/bin/bash\ -i
 set shell=bash
+
+" Wraps current word with [word][] (markdown I use with mdaddlinks)
+nmap [j Bi[<esc>ea][]<esc>
 
