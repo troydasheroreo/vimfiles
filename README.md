@@ -1,7 +1,7 @@
 vimfiles
 ========
 
-My vim setup (nix and Windows friendly).
+My vim setup (\*nix and Windows friendly).
 
 Truth is I don't like a bunch of plugins making my fingers start expecting
 things they won't find out in cloud or enterprise land. In other words,
