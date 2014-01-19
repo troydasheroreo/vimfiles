@@ -46,6 +46,6 @@ corrected, but not all.
 
 [bin]: http://github.com/robmuh/bin
 [fmt]: http://github.com/robmuh/fmt
-[mkaddlinks]: http://github.com/robmuh/mkaddlinks
+[mdaddlinks]: http://github.com/robmuh/mdaddlinks
 [tpope]: http://github.com/tpope
 
