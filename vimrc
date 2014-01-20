@@ -77,7 +77,7 @@ map <F2> :set relativenumber!<CR>
 set pastetoggle=<F3>
 map <F4> :set list!<CR>
 map <F5> :set cursorline!<CR>
-map <F6> :0,$!mdaddlinks<CR>
+map <F6> :0,$!mdaddlinks<CR>G
 map <F7> :set spell!<CR>
 
 " Turn on spell checking when it makes more sense
