@@ -51,6 +51,7 @@ set shell=bash
 
 " Wraps current word with [word][] (markdown I use with mdaddlinks)
 nnoremap [j bi[<esc>ea][]<esc>
+inoremap [j <esc>bi[<esc>ea][]<space>
 
 " Extrace all markdown links and compile them in order at bottom
 nnoremap fmt !jfmt<CR>
