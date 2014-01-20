@@ -53,11 +53,8 @@ set shell=bash
 nnoremap [j bi[<esc>ea][]<esc>
 inoremap [j <esc>bi[<esc>ea][]<space>
 
-" Extrace all markdown links and compile them in order at bottom
-nnoremap fmt !jfmt<CR>
-
 " Reformat paragraphs wrapped to default
-nnoremap fmt !jfmt<CR>
+nnoremap fmt !}fmt<CR>
 
 " Jump to last position in a given file
 if has("autocmd")
