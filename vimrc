@@ -83,4 +83,8 @@ if has("autocmd")
   au FileType markdown,txt,html set spell
 endif
 
-
+" Call out missing markdown reference links
+function! MyHighlights()
+  syn match markdownError '^\[.*\]:[ \t]*$'
+endfunction
+autocmd Syntax * call MyHighlights()
