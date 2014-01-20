@@ -2,7 +2,7 @@ syntax on
 filetype plugin indent on
 set nocompatible
 set modelines=0
-set spell spelllang=en_us
+set spelllang=en_us
 set background=dark
 set autoread
 set expandtab
@@ -50,5 +50,39 @@ let $TMP="/tmp"
 set shell=bash
 
 " Wraps current word with [word][] (markdown I use with mdaddlinks)
-nmap [j bi[<esc>ea][]<esc>
+nnoremap [j bi[<esc>ea][]<esc>
+
+" Extrace all markdown links and compile them in order at bottom
+nnoremap fmt !jfmt<CR>
+
+" Reformat paragraphs wrapped to default
+nnoremap fmt !jfmt<CR>
+
+" Jump to last position in a given file
+if has("autocmd")
+    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
+" Remember global variables
+if !empty(&viminfo)
+  set viminfo^=!
+endif
+
+" i feel so dirty using this, learn cnt-[ if you haven't already
+inoremap kj <Esc>
+
+" FKEY mappings
+map <F1> :set number!<CR>
+map <F2> :set relativenumber!<CR>
+set pastetoggle=<F3>
+map <F4> :set list!<CR>
+map <F5> :set cursorline!<CR>
+map <F6> :0,$!mdaddlinks<CR>
+map <F7> :set spell!<CR>
+
+" Turn on spell checking when it makes more sense
+if has("autocmd")
+  au FileType markdown,txt,html set spell
+endif
+
 

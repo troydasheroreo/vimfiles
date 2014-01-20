@@ -17,9 +17,9 @@ So this still might be useful to you--especially if you are on Windows
 using `git-bash`. There are a few non-obvious fixes for windows-specific
 setups.
 
-For the record, I tried Pathogen and Vundle and found them just too
-buggy on Windows to be worth the hassle (mostly bad quoting escapes).
-Decided to stay simpler.
+For the record, I tried Pathogen and Vundle and found them just too buggy
+on Windows to be worth the hassle (mostly bad quoting escapes). Decided to
+stay simpler.
 
 If you are a student of mine or a new vim user these other related projects
 might interest you:
@@ -27,7 +27,6 @@ might interest you:
 * [bin][]
 * [fmt][]
 * [mdaddlinks][]
-
 
 ``` bash
  cd ~
