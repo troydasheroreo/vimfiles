@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='c:\Users\Rob\vimfiles'
-let g:netrw_dirhist_2='c:\Users\Rob\robmuh.com'
-let g:netrw_dirhist_3='c:\Users\Rob\robmuh.com\_layouts'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='c:\Users\Rob\com'
+let g:netrw_dirhist_2='c:/Users/Rob/com/_includes'
+let g:netrw_dirhist_3='C:\Users\Rob\bin'
+let g:netrw_dirhist_4='C:/Users/Rob/bin'
+let g:netrw_dirhist_5='c:\Users\Rob\vimfiles'

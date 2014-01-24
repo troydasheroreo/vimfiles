@@ -55,6 +55,9 @@ inoremap [j <esc>bi[<esc>ea][]<space>
 
 " Reformat paragraphs wrapped to default
 nnoremap fmt !}fmt<CR>
+nnoremap ucmt !}ucmt<CR>
+nnoremap cmt !}cmt<CR>
+nnoremap chomp !}chomp<CR>
 
 " Jump to last position in a given file
 if has("autocmd")
