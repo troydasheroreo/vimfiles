@@ -42,8 +42,8 @@ highlight  CursorLine ctermbg=darkgrey ctermfg=None
 autocmd InsertEnter * highlight  CursorLine ctermbg=None ctermfg=None
 autocmd InsertLeave * highlight  CursorLine ctermbg=darkgrey ctermfg=None
 
-" Fixes '485: Can't read file <tmp>' errors
-let $TMP="/tmp"
+" Fixes '485: Can't read file <tmp>' errors (but not on others, like 8)
+"let $TMP="/tmp"
 
 " Fixes 'can't find specified path' errors (both work)
 " set shell=/bin/bash\ -i
