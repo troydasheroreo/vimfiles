@@ -1,8 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='c:\Users\Rob\com'
-let g:netrw_dirhist_2='c:/Users/Rob/com/_includes'
-let g:netrw_dirhist_3='C:\Users\Rob\bin'
-let g:netrw_dirhist_4='C:/Users/Rob/bin'
-let g:netrw_dirhist_5='c:\Users\Rob\vimfiles'
-let g:netrw_dirhist_6='c:\Users\Rob\trainemon\trainemon.gmx'
+let g:netrw_dirhist_cnt =0

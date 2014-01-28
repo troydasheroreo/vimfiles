@@ -58,6 +58,7 @@ nnoremap fmt !}fmt<CR>
 nnoremap ucmt !}ucmt<CR>
 nnoremap cmt !}cmt<CR>
 nnoremap chomp !}chomp<CR>
+nnoremap cfmt !}cfmt<CR>
 
 " Jump to last position in a given file
 if has("autocmd")
