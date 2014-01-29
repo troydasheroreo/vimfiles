@@ -146,3 +146,5 @@ config
 powergit
 gclone
 gping
+GreenShot
+nginx
